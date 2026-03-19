@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="GreenSprout Café is a responsive and accessible café website built with HTML, CSS, and JavaScript." />
+  <title>GreenSprout Café</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="#home" class="logo">GreenSprout Café</a>
+
+      <button class="menu-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact" class="btn btn-small">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Fresh coffee • healthy bites • cozy space</p>
+          <h1>Your neighborhood café for calm mornings and good food.</h1>
+          <p class="hero-text">
+            GreenSprout Café serves fresh coffee, homemade pastries, and healthy meals in a welcoming space.
+            This site is designed to help customers explore the menu, learn about the café, and get in touch easily.
+          </p>
+          <div class="hero-actions">
+            <a href="#menu" class="btn">View Menu</a>
+            <a href="#contact" class="btn btn-outline">Book a Table</a>
+          </div>
+        </div>
+
+        <div class="hero-panel">
+          <div class="feature-box">
+            <h2>100%</h2>
+            <p>Freshly brewed coffee and made-to-order meals every day.</p>
+          </div>
+          <div class="feature-row">
+            <article class="mini-box">
+              <h3>Organic</h3>
+              <p>Thoughtfully sourced ingredients.</p>
+            </article>
+            <article class="mini-box">
+              <h3>Local</h3>
+              <p>Made for the community we serve.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="highlight-bar" aria-label="Cafe highlights">
+      <div class="container highlight-items">
+        <p>Free Wi-Fi</p>
+        <p>Plant-Based Options</p>
+        <p>Fresh Pastries</p>
+        <p>Open Daily</p>
+      </div>
+    </section>
+
+    <section id="menu" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Menu</p>
+          <h2>Popular favorites from our café</h2>
+        </div>
+
+        <div class="card-grid">
+          <article class="menu-card">
+            <h3>Signature Coffee</h3>
+            <p>Rich espresso, creamy lattes, cold brew, and seasonal specialty drinks.</p>
+          </article>
+          <article class="menu-card">
+            <h3>Fresh Breakfast</h3>
+            <p>Avocado toast, yogurt bowls, sandwiches, and healthy breakfast plates.</p>
+          </article>
+          <article class="menu-card">
+            <h3>Pastries & Desserts</h3>
+            <p>Croissants, muffins, cookies, and homemade cakes baked fresh each day.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-alt">
+      <div class="container split-layout">
+        <div>
+          <p class="eyebrow">About</p>
+          <h2>We created a café experience that feels warm and welcoming.</h2>
+          <p>
+            GreenSprout Café is built around comfort, quality, and community. Customers can quickly
+            learn what we offer, browse the menu, and contact us through a simple, mobile-friendly layout.
+          </p>
+          <p>
+            This project demonstrates responsive design, accessible structure, semantic HTML, and clean CSS organization.
+          </p>
+        </div>
+
+        <div class="info-panel">
+          <h3>Why this project works well</h3>
+          <ul>
+            <li>Easy navigation for first-time visitors</li>
+            <li>Readable layout on phone, tablet, and desktop</li>
+            <li>Accessible headings, landmarks, and form labels</li>
+            <li>Professional structure for GitHub review</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Gallery</p>
+          <h2>Spaces and experiences customers will enjoy</h2>
+        </div>
+
+        <div class="gallery-grid">
+          <article class="gallery-card">
+            <h3>Cozy Seating Area</h3>
+            <p>A relaxing environment for studying, reading, or meeting friends.</p>
+          </article>
+          <article class="gallery-card">
+            <h3>Fresh Counter Display</h3>
+            <p>Showcasing pastries, drinks, and menu specials in a clean visual layout.</p>
+          </article>
+          <article class="gallery-card">
+            <h3>Outdoor Corner</h3>
+            <p>A bright and calm space for guests who prefer fresh air and natural light.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Reviews</p>
+          <h2>What customers might say</h2>
+        </div>
+
+        <div class="card-grid">
+          <blockquote class="review-card">
+            <p>“The design feels clean, welcoming, and easy to use on mobile.”</p>
+            <footer>— Mia, Customer</footer>
+          </blockquote>
+          <blockquote class="review-card">
+            <p>“This website clearly presents the café’s menu and contact details.”</p>
+            <footer>— Sam, Reviewer</footer>
+          </blockquote>
+          <blockquote class="review-card">
+            <p>“A polished final project with strong structure and accessibility.”</p>
+            <footer>— Lee, Peer</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container split-layout">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h2>Reserve a table or ask a question.</h2>
+          <p>
+            Use the form below to send us a message. It includes simple validation to improve the user experience.
+          </p>
+        </div>
+
+        <form id="contactForm" class="contact-form" novalidate>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+
+          <button type="submit" class="btn">Send Message</button>
+          <p id="formMessage" class="form-message" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrapper">
+      <p>&copy; 2026 GreenSprout Café. All rights reserved.</p>
+      <a href="#home">Back to top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
